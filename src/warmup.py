@@ -8,7 +8,7 @@ from transformers import pipeline
 def load_model():
 
     # load the model from cache or local file to the CPU
-    model = pipeline('fill-mask', model='bert-base-uncased', device=0)
+    model = pipeline("text2text-generation", model = "valhalla/t5-base-qa-qg-hl", device=0)
 
     # transfer the model to the GPU
     # N/A for this example, it's already on the GPU
