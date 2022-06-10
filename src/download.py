@@ -7,7 +7,7 @@ from transformers import pipeline
 
 def download_model():
     # do a dry run of loading the huggingface model, which will download weights
-    pipeline('fill-mask', model='bert-base-uncased')
+    pipeline("text2text-generation", model = "valhalla/t5-base-qa-qg-hl")
 
 if __name__ == "__main__":
     download_model()
