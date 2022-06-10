@@ -1,7 +1,7 @@
 
 # serverless-template
 
-Setup and host your ML on Banana in minutes
+Setup and host your ML on Banana in minutes.
 
 # How to use this Template repo:
 1) Fork this repo
